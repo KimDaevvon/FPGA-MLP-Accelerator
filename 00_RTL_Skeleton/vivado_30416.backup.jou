@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jun 26 21:13:51 2025
+# Process ID: 30416
+# Current directory: C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30508 C:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\dsd_termprj.xpr
+# Log file: C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/vivado.log
+# Journal file: C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton\vivado.jou
+# Running On: DESKTOP-35395NG, OS: Windows, CPU Frequency: 3493 MHz, CPU Physical cores: 12, Host memory: 34279 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.xpr
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/ip/dsp_macro_0/dsp_macro_0.xci]
+launch_simulation
+open_wave_config C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/tb_top_mlp_behav.wcfg
+source tb_top_mlp.tcl
+run all
+close_sim
+generate_target Simulation [get_files C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/ip/dsp_macro_0/dsp_macro_0.xci]
+launch_simulation
+open_wave_config C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/tb_top_mlp_behav.wcfg
+source tb_top_mlp.tcl
+run all
+close_sim

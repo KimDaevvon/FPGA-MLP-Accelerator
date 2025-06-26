@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Jun 15 13:01:27 2025
+# Process ID: 3728
+# Current directory: C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.runs/synth_1\vivado.jou
+# Running On: DESKTOP-35395NG, OS: Windows, CPU Frequency: 3493 MHz, CPU Physical cores: 12, Host memory: 34279 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

@@ -1,0 +1,71 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_dsp48_wrapper_v3_0_4 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L dsp_macro_v1_0_3 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_mlp_behav xil_defaultlib.tb_top_mlp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package dsp_macro_v1_0_3.dsp_macro_v1_0_3_viv_comp
+Compiling package dsp_macro_v1_0_3.dsp_macro_v1_0_3_pkg
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module xil_defaultlib.single_port_bram(INIT_FILE="C:/S...
+Compiling module xil_defaultlib.glbl_ctrl(PIPELINED_DELAY=546)
+Compiling module xil_defaultlib.preproc
+Compiling module xil_defaultlib.local_controller
+Compiling module xil_defaultlib.vector_buffer_default
+Compiling module xil_defaultlib.weight_bram(DEPTH=2048,INIT_FILE...
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=16...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=32...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_dsp48_wrapper_v3_0_4.xbip_dsp48e1_wrapper_v3_0 [\xbip_dsp48e1_wrapper_v3_0(acasc...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=18...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=48...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=24...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(1,1)(1,1)\]
+Compiling architecture synth of entity dsp_macro_v1_0_3.dsp_macro_synth [\dsp_macro_synth(c_xdevicefamily...]
+Compiling architecture synth of entity dsp_macro_v1_0_3.dsp_macro_v1_0_3_viv [\dsp_macro_v1_0_3_viv(c_xdevicef...]
+Compiling architecture xilinx of entity dsp_macro_v1_0_3.dsp_macro_v1_0_3 [\dsp_macro_v1_0_3(c_xdevicefamil...]
+Compiling architecture dsp_macro_0_arch of entity xil_defaultlib.dsp_macro_0 [dsp_macro_0_default]
+Compiling module xil_defaultlib.MAC
+Compiling module xil_defaultlib.gemv(OUTPUT_DIM=64)
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Input_Layer(INIT_FILE="C:/Stream...
+Compiling module xil_defaultlib.post_proc(VECTOR_SIZE=64)
+Compiling module xil_defaultlib.local_controller(ROWS=64,COLS=25...
+Compiling module xil_defaultlib.vector_buffer(DATA_DEPTH=64)
+Compiling module xil_defaultlib.weight_bram(BUS_SIZE=32,DEPTH=51...
+Compiling module xil_defaultlib.gemv(OUTPUT_DIM=32)
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Layer(ROWS=64,COLS=256,VECTOR_SI...
+Compiling module xil_defaultlib.post_proc(VECTOR_SIZE=256)
+Compiling module xil_defaultlib.local_controller(ROWS=256,COLS=1...
+Compiling module xil_defaultlib.vector_buffer(DATA_DEPTH=256)
+Compiling module xil_defaultlib.weight_bram(DEPTH=512,INIT_FILE=...
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Layer(ROWS=256,COLS=128,VECTOR_S...
+Compiling module xil_defaultlib.post_proc(VECTOR_SIZE=128)
+Compiling module xil_defaultlib.local_controller(ROWS=128,COLS=1...
+Compiling module xil_defaultlib.vector_buffer(DATA_DEPTH=128)
+Compiling module xil_defaultlib.weight_bram(BUS_SIZE=5,DEPTH=256...
+Compiling module xil_defaultlib.gemv(OUTPUT_DIM=5)
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Layer(ROWS=128,COLS=10,VECTOR_SI...
+Compiling module xil_defaultlib.Layer_Stack
+Compiling module xil_defaultlib.top_mlp(X_BUF_DATA_WIDTH=16,X_BU...
+Compiling module xil_defaultlib.tb_top_mlp
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_mlp_behav

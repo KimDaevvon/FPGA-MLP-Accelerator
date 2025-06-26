@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Jun 15 14:33:04 2025
+# Process ID: 3544
+# Current directory: C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35620 C:\DSD25_Termproject_Materials_Updated250519\00_RTL_Skeleton\dsd_termprj.xpr
+# Log file: C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/vivado.log
+# Journal file: C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton\vivado.jou
+# Running On: DESKTOP-35395NG, OS: Windows, CPU Frequency: 3493 MHz, CPU Physical cores: 12, Host memory: 34279 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.xpr
+open_hw_manager
+update_compile_order -fileset sources_1
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+write_hw_platform -fixed -include_bit -force -file C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/design_1_wrapper.xsa

@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../dsd_termprj.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../dsd_termprj.gen/sources_1/bd/design_1/ipshared/aed8/hdl" --include "../../../../dsd_termprj.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../dsd_termprj.gen/sources_1/bd/design_1/ipshared/66be/hdl/verilog" --include "C:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/new/Input_Layer.v" \
+"../../../../dsd_termprj.srcs/sources_1/new/Layer_Stack.v" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/MAC.v" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/gemv.v" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/new/glbl_ctrl.v" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/layer.v" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/local_controller.v" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/post_proc.v" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/new/preproc.v" \
+"../../../../dsd_termprj.srcs/sources_1/new/single_port_bram.v" \
+"../../../../dsd_termprj.srcs/sources_1/new/top_mlp.v" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/vector_buffer.v" \
+"../../../../dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/weight_bram.v" \
+"../../../../dsd_termprj.srcs/sim_1/new/tb_top_mlp.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

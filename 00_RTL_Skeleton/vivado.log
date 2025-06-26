@@ -1,0 +1,462 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jun 26 21:51:58 2025
+# Process ID: 30412
+# Current directory: C:/Streamline Accelerator/00_RTL_Skeleton
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6928 C:\Streamline Accelerator\00_RTL_Skeleton\dsd_termprj.xpr
+# Log file: C:/Streamline Accelerator/00_RTL_Skeleton/vivado.log
+# Journal file: C:/Streamline Accelerator/00_RTL_Skeleton\vivado.jou
+# Running On: DESKTOP-35395NG, OS: Windows, CPU Frequency: 3493 MHz, CPU Physical cores: 12, Host memory: 34279 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 1523.621 ; gain = 387.340
+update_compile_order -fileset sources_1
+update_module_reference design_1_top_mlp_0_0
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'INPUT_SIZE' by 784 for port or parameter 'preproc_input'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'OUT_CHANNEL' by 10 for port or parameter 'y_buffer_col_idx'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'REDUCED_INPUT_SIZE' by 512 for port or parameter 'vec_compressed'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'INPUT_SIZE' by 784 for port or parameter 'compressed_addr'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'REDUCED_INPUT_SIZE' by 512 for port or parameter 'compressed_addr'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'OUT_CHANNEL' by 10 for port or parameter 'result_vector'
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "spirit:decode(id('MODELPARAM_VALUE.FP_BW'))" into user parameter "X_BUF_DATA_WIDTH".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "(784 * spirit:decode(id('MODELPARAM_VALUE.IN_IMG_NUM')))" into user parameter "X_BUF_DEPTH".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "spirit:decode(id('MODELPARAM_VALUE.FP_BW'))" into user parameter "W_BUF_DATA_WIDTH".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((10 * spirit:decode(id('MODELPARAM_VALUE.IN_IMG_NUM'))) * 4)" into user parameter "Y_BUF_DEPTH".
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'INPUT_SIZE' by 784 for port or parameter 'preproc_input'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'OUT_CHANNEL' by 10 for port or parameter 'y_buffer_col_idx'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'REDUCED_INPUT_SIZE' by 512 for port or parameter 'vec_compressed'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'INPUT_SIZE' by 784 for port or parameter 'compressed_addr'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'REDUCED_INPUT_SIZE' by 512 for port or parameter 'compressed_addr'
+INFO: [IP_Flow 19-1976] HDL Parser: Replacing 'OUT_CHANNEL' by 10 for port or parameter 'result_vector'
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rst_n': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "spirit:decode(id('MODELPARAM_VALUE.FP_BW'))" into user parameter "X_BUF_DATA_WIDTH".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "(784 * spirit:decode(id('MODELPARAM_VALUE.IN_IMG_NUM')))" into user parameter "X_BUF_DEPTH".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "spirit:decode(id('MODELPARAM_VALUE.FP_BW'))" into user parameter "W_BUF_DATA_WIDTH".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((10 * spirit:decode(id('MODELPARAM_VALUE.IN_IMG_NUM'))) * 4)" into user parameter "Y_BUF_DEPTH".
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Reading block design file <C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:module_ref:top_mlp:1.0 - top_mlp_0
+Successfully read diagram <design_1> from block design file <C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/bd/design_1/design_1.bd>
+Upgrading 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_top_mlp_0_0 to use current project options
+Wrote  : <C:\Streamline Accelerator\00_RTL_Skeleton\dsd_termprj.srcs\sources_1\bd\design_1\design_1.bd> 
+INFO: [Vivado 12-5457] ref source:C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/ip/dsp_macro_0/dsp_macro_0.xci
+generate_target Simulation [get_files {C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/ip/dsp_macro_0/dsp_macro_0.xci}]
+WARNING: [Vivado 12-818] No files matched 'C:/Streamline'
+WARNING: [Vivado 12-818] No files matched 'Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/ip/dsp_macro_0/dsp_macro_0.xci'
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_mlp'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top_mlp' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim/sc_xtlm_design_1_smartconnect_0_0.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_14 -L processing_system7_vip_v1_0_16 -L smartconnect_v1_0 -L xilinx_vip -prj tb_top_mlp_vlog.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/new/Input_Layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Input_Layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/new/Layer_Stack.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_Stack
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/MAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/gemv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gemv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/new/glbl_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/local_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module local_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/post_proc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module post_proc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/new/preproc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module preproc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/new/single_port_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_port_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/new/top_mlp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mlp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/vector_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vector_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/weight_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sim_1/new/tb_top_mlp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_mlp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_top_mlp_vhdl.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.gen/sources_1/ip/dsp_macro_0/sim/dsp_macro_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dsp_macro_0'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_dsp48_wrapper_v3_0_4 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L dsp_macro_v1_0_3 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_mlp_behav xil_defaultlib.tb_top_mlp xil_defaultlib.glbl -log elaborate.log"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_dsp48_wrapper_v3_0_4 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L dsp_macro_v1_0_3 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_mlp_behav xil_defaultlib.tb_top_mlp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package dsp_macro_v1_0_3.dsp_macro_v1_0_3_viv_comp
+Compiling package dsp_macro_v1_0_3.dsp_macro_v1_0_3_pkg
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module xil_defaultlib.single_port_bram(INIT_FILE="C:/S...
+Compiling module xil_defaultlib.glbl_ctrl(PIPELINED_DELAY=546)
+Compiling module xil_defaultlib.preproc
+Compiling module xil_defaultlib.local_controller
+Compiling module xil_defaultlib.vector_buffer_default
+Compiling module xil_defaultlib.weight_bram(DEPTH=2048,INIT_FILE...
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=16...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=32...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_dsp48_wrapper_v3_0_4.xbip_dsp48e1_wrapper_v3_0 [\xbip_dsp48e1_wrapper_v3_0(acasc...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=18...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=48...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=24...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(1,1)(1,1)\]
+Compiling architecture synth of entity dsp_macro_v1_0_3.dsp_macro_synth [\dsp_macro_synth(c_xdevicefamily...]
+Compiling architecture synth of entity dsp_macro_v1_0_3.dsp_macro_v1_0_3_viv [\dsp_macro_v1_0_3_viv(c_xdevicef...]
+Compiling architecture xilinx of entity dsp_macro_v1_0_3.dsp_macro_v1_0_3 [\dsp_macro_v1_0_3(c_xdevicefamil...]
+Compiling architecture dsp_macro_0_arch of entity xil_defaultlib.dsp_macro_0 [dsp_macro_0_default]
+Compiling module xil_defaultlib.MAC
+Compiling module xil_defaultlib.gemv(OUTPUT_DIM=64)
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Input_Layer(INIT_FILE="C:/DSD25_...
+Compiling module xil_defaultlib.post_proc(VECTOR_SIZE=64)
+Compiling module xil_defaultlib.local_controller(ROWS=64,COLS=25...
+Compiling module xil_defaultlib.vector_buffer(DATA_DEPTH=64)
+Compiling module xil_defaultlib.weight_bram(BUS_SIZE=32,DEPTH=51...
+Compiling module xil_defaultlib.gemv(OUTPUT_DIM=32)
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Layer(ROWS=64,COLS=256,VECTOR_SI...
+Compiling module xil_defaultlib.post_proc(VECTOR_SIZE=256)
+Compiling module xil_defaultlib.local_controller(ROWS=256,COLS=1...
+Compiling module xil_defaultlib.vector_buffer(DATA_DEPTH=256)
+Compiling module xil_defaultlib.weight_bram(DEPTH=512,INIT_FILE=...
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Layer(ROWS=256,COLS=128,VECTOR_S...
+Compiling module xil_defaultlib.post_proc(VECTOR_SIZE=128)
+Compiling module xil_defaultlib.local_controller(ROWS=128,COLS=1...
+Compiling module xil_defaultlib.vector_buffer(DATA_DEPTH=128)
+Compiling module xil_defaultlib.weight_bram(BUS_SIZE=5,DEPTH=256...
+Compiling module xil_defaultlib.gemv(OUTPUT_DIM=5)
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Layer(ROWS=128,COLS=10,VECTOR_SI...
+Compiling module xil_defaultlib.Layer_Stack
+Compiling module xil_defaultlib.top_mlp(X_BUF_DATA_WIDTH=16,X_BU...
+Compiling module xil_defaultlib.tb_top_mlp
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_mlp_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1615.379 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_mlp_behav -key {Behavioral:sim_1:Functional:tb_top_mlp} -tclbatch {tb_top_mlp.tcl} -protoinst "protoinst_files/bd_48ac.protoinst" -view {{C:/Streamline Accelerator/00_RTL_Skeleton/tb_top_mlp_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_48ac.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/bd_48ac.protoinst for the following reason(s):
+There are no instances of module "bd_48ac" in the design.
+
+Time resolution is 1 ps
+open_wave_config {C:/Streamline Accelerator/00_RTL_Skeleton/tb_top_mlp_behav.wcfg}
+source tb_top_mlp.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File C:/DSD25_Termproject_Materials_Updated250519/02_Provided_Data/fixed_point_weight_hex/fixed_point_W1_hex.txt referenced on C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/layer.v at line 158 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File C:/DSD25_Termproject_Materials_Updated250519/02_Provided_Data/fixed_point_weight_hex/fixed_point_W2_hex.txt referenced on C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/layer.v at line 158 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File C:/DSD25_Termproject_Materials_Updated250519/02_Provided_Data/fixed_point_weight_hex/fixed_point_W3_hex.txt referenced on C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/layer.v at line 158 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File C:/DSD25_Termproject_Materials_Updated250519/02_Provided_Data/fixed_point_weight_hex/fixed_point_W4_hex.txt referenced on C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/layer.v at line 158 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+Time 0: dut.layer_stack_inst.u_layer4.data_vector_o = 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_mlp_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 3032.535 ; gain = 1417.156
+run all
+Time 23285000: dut.layer_stack_inst.u_layer4.data_vector_o = 0000000000000000000000000000000000000000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Time 24615000: dut.layer_stack_inst.u_layer4.data_vector_o = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+$finish called at time : 80736 ns : File "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sim_1/new/tb_top_mlp.v" Line 73
+run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 3896.055 ; gain = 857.789
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_mlp'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top_mlp' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim/sc_xtlm_design_1_smartconnect_0_0.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_14 -L processing_system7_vip_v1_0_16 -L smartconnect_v1_0 -L xilinx_vip -prj tb_top_mlp_vlog.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/new/Input_Layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Input_Layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/new/Layer_Stack.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer_Stack
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/MAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/gemv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gemv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/new/glbl_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/local_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module local_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/post_proc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module post_proc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/new/preproc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module preproc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/new/single_port_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_port_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/new/top_mlp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_mlp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/vector_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vector_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/MLP_TOP.srcs/sources_1/imports/new/weight_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sim_1/new/tb_top_mlp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_mlp
+"xvhdl --incr --relax -prj tb_top_mlp_vhdl.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3900.977 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_mlp'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_dsp48_wrapper_v3_0_4 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L dsp_macro_v1_0_3 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_mlp_behav xil_defaultlib.tb_top_mlp xil_defaultlib.glbl -log elaborate.log"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_dsp48_wrapper_v3_0_4 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L dsp_macro_v1_0_3 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_mlp_behav xil_defaultlib.tb_top_mlp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package dsp_macro_v1_0_3.dsp_macro_v1_0_3_viv_comp
+Compiling package dsp_macro_v1_0_3.dsp_macro_v1_0_3_pkg
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module xil_defaultlib.single_port_bram(INIT_FILE="C:/S...
+Compiling module xil_defaultlib.glbl_ctrl(PIPELINED_DELAY=546)
+Compiling module xil_defaultlib.preproc
+Compiling module xil_defaultlib.local_controller
+Compiling module xil_defaultlib.vector_buffer_default
+Compiling module xil_defaultlib.weight_bram(DEPTH=2048,INIT_FILE...
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=16...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=32...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_dsp48_wrapper_v3_0_4.xbip_dsp48e1_wrapper_v3_0 [\xbip_dsp48e1_wrapper_v3_0(acasc...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=18...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=48...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_width=24...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(1,1)(1,1)\]
+Compiling architecture synth of entity dsp_macro_v1_0_3.dsp_macro_synth [\dsp_macro_synth(c_xdevicefamily...]
+Compiling architecture synth of entity dsp_macro_v1_0_3.dsp_macro_v1_0_3_viv [\dsp_macro_v1_0_3_viv(c_xdevicef...]
+Compiling architecture xilinx of entity dsp_macro_v1_0_3.dsp_macro_v1_0_3 [\dsp_macro_v1_0_3(c_xdevicefamil...]
+Compiling architecture dsp_macro_0_arch of entity xil_defaultlib.dsp_macro_0 [dsp_macro_0_default]
+Compiling module xil_defaultlib.MAC
+Compiling module xil_defaultlib.gemv(OUTPUT_DIM=64)
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Input_Layer(INIT_FILE="C:/Stream...
+Compiling module xil_defaultlib.post_proc(VECTOR_SIZE=64)
+Compiling module xil_defaultlib.local_controller(ROWS=64,COLS=25...
+Compiling module xil_defaultlib.vector_buffer(DATA_DEPTH=64)
+Compiling module xil_defaultlib.weight_bram(BUS_SIZE=32,DEPTH=51...
+Compiling module xil_defaultlib.gemv(OUTPUT_DIM=32)
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Layer(ROWS=64,COLS=256,VECTOR_SI...
+Compiling module xil_defaultlib.post_proc(VECTOR_SIZE=256)
+Compiling module xil_defaultlib.local_controller(ROWS=256,COLS=1...
+Compiling module xil_defaultlib.vector_buffer(DATA_DEPTH=256)
+Compiling module xil_defaultlib.weight_bram(DEPTH=512,INIT_FILE=...
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Layer(ROWS=256,COLS=128,VECTOR_S...
+Compiling module xil_defaultlib.post_proc(VECTOR_SIZE=128)
+Compiling module xil_defaultlib.local_controller(ROWS=128,COLS=1...
+Compiling module xil_defaultlib.vector_buffer(DATA_DEPTH=128)
+Compiling module xil_defaultlib.weight_bram(BUS_SIZE=5,DEPTH=256...
+Compiling module xil_defaultlib.gemv(OUTPUT_DIM=5)
+Compiling module xil_defaultlib.vector_buffer(DATA_WIDTH=32,DATA...
+Compiling module xil_defaultlib.Layer(ROWS=128,COLS=10,VECTOR_SI...
+Compiling module xil_defaultlib.Layer_Stack
+Compiling module xil_defaultlib.top_mlp(X_BUF_DATA_WIDTH=16,X_BU...
+Compiling module xil_defaultlib.tb_top_mlp
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_mlp_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 3900.977 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 3900.977 ; gain = 0.000
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_48ac.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/bd_48ac.protoinst for the following reason(s):
+There are no instances of module "bd_48ac" in the design.
+
+Time resolution is 1 ps
+Time 0: dut.layer_stack_inst.u_layer4.data_vector_o = 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:26 . Memory (MB): peak = 3900.977 ; gain = 0.000
+run all
+Time 23285000: dut.layer_stack_inst.u_layer4.data_vector_o = 0000000000000000000000000000000000000000ffd6003fffd9fb63ffe91ce8ffdf80e70026f720
+Time 24615000: dut.layer_stack_inst.u_layer4.data_vector_o = ffe8cfe5fff38dafffecebb0fff31335ffe22fb1ffd6003fffd9fb63ffe91ce8ffdf80e70026f720
+Time 28755000: dut.layer_stack_inst.u_layer4.data_vector_o = ffe8cfe5fff38dafffecebb0fff31335ffe22fb1fffad781ffe78a8cfffce18d000e372cfff9f0a7
+Time 30085000: dut.layer_stack_inst.u_layer4.data_vector_o = fff2fb36fff7868300044961ffef8b97fff598b1fffad781ffe78a8cfffce18d000e372cfff9f0a7
+Time 34225000: dut.layer_stack_inst.u_layer4.data_vector_o = fff2fb36fff7868300044961ffef8b97fff598b1fffd6849ffe10c310025cfdffff47315ffda7b8f
+Time 35555000: dut.layer_stack_inst.u_layer4.data_vector_o = ffd737ddffe5828bfffa88adffe4c3c7ffd58aa4fffd6849ffe10c310025cfdffff47315ffda7b8f
+Time 39695000: dut.layer_stack_inst.u_layer4.data_vector_o = ffd737ddffe5828bfffa88adffe4c3c7ffd58aa4ffe4ce900022b06cfff5d7d2fff0801bffcfe4ec
+Time 41025000: dut.layer_stack_inst.u_layer4.data_vector_o = fff159b1ffecbc35fff8878dffc136e0ffe4356cffe4ce900022b06cfff5d7d2fff0801bffcfe4ec
+Time 45165000: dut.layer_stack_inst.u_layer4.data_vector_o = fff159b1ffecbc35fff8878dffc136e0ffe4356c0018f7fcffe463a9fff82312ffe74c3fffe5d04e
+Time 46495000: dut.layer_stack_inst.u_layer4.data_vector_o = fff729c6ffe4943bfffcd5b1ffdbc90fffe5a5b60018f7fcffe463a9fff82312ffe74c3fffe5d04e
+Time 50635000: dut.layer_stack_inst.u_layer4.data_vector_o = fff729c6ffe4943bfffcd5b1ffdbc90fffe5a5b6ffd5223c000ba1beffe12363ffe414ecffd16016
+Time 51965000: dut.layer_stack_inst.u_layer4.data_vector_o = fff6e1ccffe27605ffd66541ffcfcb2400268240ffd5223c000ba1beffe12363ffe414ecffd16016
+Time 56105000: dut.layer_stack_inst.u_layer4.data_vector_o = fff6e1ccffe27605ffd66541ffcfcb2400268240ffed455effdb98bbfff55768ffeb516efff756f6
+Time 57435000: dut.layer_stack_inst.u_layer4.data_vector_o = ffe855aeffef0da5ffe095e1001bc398fffeea40ffed455effdb98bbfff55768ffeb516efff756f6
+Time 61575000: dut.layer_stack_inst.u_layer4.data_vector_o = ffe855aeffef0da5ffe095e1001bc398fffeea40ffe1461cffdd1f17fff1948dffd8e25cffcf6299
+Time 62905000: dut.layer_stack_inst.u_layer4.data_vector_o = ffdec937ffc247d3003e8023ff94ae7fffcdf3c4ffe1461cffdd1f17fff1948dffd8e25cffcf6299
+Time 67045000: dut.layer_stack_inst.u_layer4.data_vector_o = ffdec937ffc247d3003e8023ff94ae7fffcdf3c4ffe4580cfff35a7ffff65d6fffece299ffec19b7
+Time 68375000: dut.layer_stack_inst.u_layer4.data_vector_o = fff84798001bac26ffe623bfffe4a934fff9761fffe4580cfff35a7ffff65d6fffece299ffec19b7
+Time 72515000: dut.layer_stack_inst.u_layer4.data_vector_o = fff84798001bac26ffe623bfffe4a934fff9761ffff5f87bfff16dedffd913aaffe0d4d3ffe2d72b
+Time 73845000: dut.layer_stack_inst.u_layer4.data_vector_o = 0021bca6ffe7163dfff3b7ecffc1cbdcffeaa707fff5f87bfff16dedffd913aaffe0d4d3ffe2d72b
+$finish called at time : 80736 ns : File "C:/Streamline Accelerator/00_RTL_Skeleton/dsd_termprj.srcs/sim_1/new/tb_top_mlp.v" Line 73
+run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 3900.977 ; gain = 0.000
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 56596 KB (Peak: 56596 KB), Simulation CPU Usage: 21921 ms
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3900.977 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 26 21:57:15 2025...

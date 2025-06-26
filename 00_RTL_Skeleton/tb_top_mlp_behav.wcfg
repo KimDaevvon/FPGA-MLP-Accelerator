@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_mlp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_mlp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="12.203334 us"></ZoomStartTime>
+      <ZoomEndTime time="67.053335 us"></ZoomEndTime>
+      <Cursor1Time time="21.345000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="274"></NameColumnWidth>
+      <ValueColumnWidth column_width="300"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/tb_top_mlp/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mlp/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mlp/start_i" type="logic">
+      <obj_property name="ElementShortName">start_i</obj_property>
+      <obj_property name="ObjectShortName">start_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mlp/done_intr_o" type="logic">
+      <obj_property name="ElementShortName">done_intr_o</obj_property>
+      <obj_property name="ObjectShortName">done_intr_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mlp/done_led_o" type="logic">
+      <obj_property name="ElementShortName">done_led_o</obj_property>
+      <obj_property name="ObjectShortName">done_led_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mlp/y_buf_en" type="logic">
+      <obj_property name="ElementShortName">y_buf_en</obj_property>
+      <obj_property name="ObjectShortName">y_buf_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mlp/y_buf_wr_en" type="logic">
+      <obj_property name="ElementShortName">y_buf_wr_en</obj_property>
+      <obj_property name="ObjectShortName">y_buf_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/data_vector_o" type="array">
+      <obj_property name="ElementShortName">data_vector_o[319:0]</obj_property>
+      <obj_property name="ObjectShortName">data_vector_o[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mlp/y_buf_addr" type="array">
+      <obj_property name="ElementShortName">y_buf_addr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">y_buf_addr[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_mlp/y_buf_data" type="array">
+      <obj_property name="ElementShortName">y_buf_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_buf_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider67">
+      <obj_property name="label">Global Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group68" type="group">
+      <obj_property name="label">glbl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_mlp/dut/glbl_inst/valid_result" type="logic">
+         <obj_property name="ElementShortName">valid_result</obj_property>
+         <obj_property name="ObjectShortName">valid_result</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/glbl_inst/load_o" type="logic">
+         <obj_property name="ElementShortName">load_o</obj_property>
+         <obj_property name="ObjectShortName">load_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/glbl_inst/input_valid_o" type="logic">
+         <obj_property name="ElementShortName">input_valid_o</obj_property>
+         <obj_property name="ObjectShortName">input_valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/glbl_inst/input_count" type="array">
+         <obj_property name="ElementShortName">input_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">input_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/glbl_inst/output_count" type="array">
+         <obj_property name="ElementShortName">output_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">output_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/glbl_inst/y_buffer_col_idx" type="array">
+         <obj_property name="ElementShortName">y_buffer_col_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">y_buffer_col_idx[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/glbl_inst/y_buf_wr_en" type="logic">
+         <obj_property name="ElementShortName">y_buf_wr_en</obj_property>
+         <obj_property name="ObjectShortName">y_buf_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/glbl_inst/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/glbl_inst/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider50">
+      <obj_property name="label">Pre-Processing</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group69" type="group">
+      <obj_property name="label">preproc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/input_data" type="array">
+         <obj_property name="ElementShortName">input_data[6271:0]</obj_property>
+         <obj_property name="ObjectShortName">input_data[6271:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/rstn" type="logic">
+         <obj_property name="ElementShortName">rstn</obj_property>
+         <obj_property name="ObjectShortName">rstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/new_input_load" type="logic">
+         <obj_property name="ElementShortName">new_input_load</obj_property>
+         <obj_property name="ObjectShortName">new_input_load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/valid_o" type="logic">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/valid_reg" type="logic">
+         <obj_property name="ElementShortName">valid_reg</obj_property>
+         <obj_property name="ObjectShortName">valid_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/new_input_load_p" type="logic">
+         <obj_property name="ElementShortName">new_input_load_p</obj_property>
+         <obj_property name="ObjectShortName">new_input_load_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/slice0_s1" type="array">
+         <obj_property name="ElementShortName">slice0_s1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slice0_s1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/slice1_s1" type="array">
+         <obj_property name="ElementShortName">slice1_s1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slice1_s1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/cnt_s1" type="array">
+         <obj_property name="ElementShortName">cnt_s1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_s1[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/in0_s2" type="array">
+         <obj_property name="ElementShortName">in0_s2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">in0_s2[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/in1_s2" type="array">
+         <obj_property name="ElementShortName">in1_s2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">in1_s2[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/nz_s2" type="logic">
+         <obj_property name="ElementShortName">nz_s2</obj_property>
+         <obj_property name="ObjectShortName">nz_s2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/cnt_s2" type="array">
+         <obj_property name="ElementShortName">cnt_s2[9:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_s2[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/i" type="array">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/raddr_s3" type="array">
+         <obj_property name="ElementShortName">raddr_s3[8:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr_s3[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/r_vec_compressed" type="array">
+         <obj_property name="ElementShortName">r_vec_compressed[0:511][15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_vec_compressed[0:511][15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/array_idx_selected" type="array">
+         <obj_property name="ElementShortName">array_idx_selected[0:511][9:0]</obj_property>
+         <obj_property name="ObjectShortName">array_idx_selected[0:511][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/vec_out_reg" type="array">
+         <obj_property name="ElementShortName">vec_out_reg[8191:0]</obj_property>
+         <obj_property name="ObjectShortName">vec_out_reg[8191:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/preproc_inst/addr_out_reg" type="array">
+         <obj_property name="ElementShortName">addr_out_reg[5119:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_out_reg[5119:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider51">
+      <obj_property name="label">Layers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group32" type="group">
+      <obj_property name="label">layer1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/data_vector_i" type="array">
+         <obj_property name="ElementShortName">data_vector_i[8191:0]</obj_property>
+         <obj_property name="ObjectShortName">data_vector_i[8191:0]</obj_property>
+         <obj_property name="Reversed">false</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/reduced_input_addr" type="array">
+         <obj_property name="ElementShortName">reduced_input_addr[5119:0]</obj_property>
+         <obj_property name="ObjectShortName">reduced_input_addr[5119:0]</obj_property>
+         <obj_property name="Reversed">false</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/layer_update" type="logic">
+         <obj_property name="ElementShortName">layer_update</obj_property>
+         <obj_property name="ObjectShortName">layer_update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_in/w_en" type="logic">
+         <obj_property name="ElementShortName">w_en</obj_property>
+         <obj_property name="ObjectShortName">w_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_ctrl/gemv_end" type="logic">
+         <obj_property name="ElementShortName">gemv_end</obj_property>
+         <obj_property name="ObjectShortName">gemv_end</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /gemv_rst" type="logic">
+         <obj_property name="ElementShortName">gemv_rst</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /dsp_enable_i" type="logic">
+         <obj_property name="ElementShortName">dsp_enable_i</obj_property>
+         <obj_property name="ObjectShortName">dsp_enable_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/row_idx_p" type="array">
+         <obj_property name="ElementShortName">row_idx_p[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row_idx_p[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /dsp_input_i" type="array">
+         <obj_property name="ElementShortName">dsp_input_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_input_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /dsp_weight_i" type="array">
+         <obj_property name="ElementShortName">dsp_weight_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_weight_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /dsp_output_o" type="array">
+         <obj_property name="ElementShortName">dsp_output_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_output_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /partial_sum" type="array">
+         <obj_property name="ElementShortName">partial_sum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">partial_sum[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /dsp_output" type="array">
+         <obj_property name="ElementShortName">dsp_output[32:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_output[32:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/weight_i" type="array">
+         <obj_property name="ElementShortName">weight_i[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_i[1023:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/din_i" type="array">
+         <obj_property name="ElementShortName">din_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/gemv_o" type="array">
+         <obj_property name="ElementShortName">gemv_o[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">gemv_o[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /DSP_for_MAC/A" type="array">
+         <obj_property name="ElementShortName">A[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /DSP_for_MAC/B" type="array">
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /DSP_for_MAC/C" type="array">
+         <obj_property name="ElementShortName">C[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer1/u_gm/\mac_array[0].mac /DSP_for_MAC/P" type="array">
+         <obj_property name="ElementShortName">P[32:0]</obj_property>
+         <obj_property name="ObjectShortName">P[32:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">layer2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/data_vector_i" type="array">
+         <obj_property name="ElementShortName">data_vector_i[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">data_vector_i[1023:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/valid_in" type="logic">
+         <obj_property name="ElementShortName">valid_in</obj_property>
+         <obj_property name="ObjectShortName">valid_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/layer_update" type="logic">
+         <obj_property name="ElementShortName">layer_update</obj_property>
+         <obj_property name="ObjectShortName">layer_update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/data_vector_o" type="array">
+         <obj_property name="ElementShortName">data_vector_o[8191:0]</obj_property>
+         <obj_property name="ObjectShortName">data_vector_o[8191:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/valid_o" type="logic">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/ctrl_valid" type="logic">
+         <obj_property name="ElementShortName">ctrl_valid</obj_property>
+         <obj_property name="ObjectShortName">ctrl_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/gemv_rst" type="logic">
+         <obj_property name="ElementShortName">gemv_rst</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/buf_w_en" type="logic">
+         <obj_property name="ElementShortName">buf_w_en</obj_property>
+         <obj_property name="ObjectShortName">buf_w_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/gemv_end" type="logic">
+         <obj_property name="ElementShortName">gemv_end</obj_property>
+         <obj_property name="ObjectShortName">gemv_end</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/ctrl_row" type="array">
+         <obj_property name="ElementShortName">ctrl_row[5:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_row[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/ctrl_rvec" type="array">
+         <obj_property name="ElementShortName">ctrl_rvec[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_rvec[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/ctrl_wvec" type="array">
+         <obj_property name="ElementShortName">ctrl_wvec[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_wvec[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/ctrl_valid_p" type="logic">
+         <obj_property name="ElementShortName">ctrl_valid_p</obj_property>
+         <obj_property name="ObjectShortName">ctrl_valid_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/gemv_rst_p" type="logic">
+         <obj_property name="ElementShortName">gemv_rst_p</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/buf_w_en_p" type="logic">
+         <obj_property name="ElementShortName">buf_w_en_p</obj_property>
+         <obj_property name="ObjectShortName">buf_w_en_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/gemv_end_p" type="logic">
+         <obj_property name="ElementShortName">gemv_end_p</obj_property>
+         <obj_property name="ObjectShortName">gemv_end_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/gemv_end_pp" type="logic">
+         <obj_property name="ElementShortName">gemv_end_pp</obj_property>
+         <obj_property name="ObjectShortName">gemv_end_pp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/ctrl_row_p" type="array">
+         <obj_property name="ElementShortName">ctrl_row_p[5:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_row_p[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/ctrl_rvec_p" type="array">
+         <obj_property name="ElementShortName">ctrl_rvec_p[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_rvec_p[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/ctrl_wvec_p" type="array">
+         <obj_property name="ElementShortName">ctrl_wvec_p[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_wvec_p[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/scalar_data" type="array">
+         <obj_property name="ElementShortName">scalar_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">scalar_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/scalar_data_p" type="array">
+         <obj_property name="ElementShortName">scalar_data_p[15:0]</obj_property>
+         <obj_property name="ObjectShortName">scalar_data_p[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/weight_row" type="array">
+         <obj_property name="ElementShortName">weight_row[511:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_row[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/weight_row_p" type="array">
+         <obj_property name="ElementShortName">weight_row_p[511:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_row_p[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/gemv_out" type="array">
+         <obj_property name="ElementShortName">gemv_out[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">gemv_out[1023:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/gemv_out_p" type="array">
+         <obj_property name="ElementShortName">gemv_out_p[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">gemv_out_p[1023:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/u_gemv/\mac_array[0].mac /gemv_rst" type="logic">
+         <obj_property name="ElementShortName">gemv_rst</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/u_gemv/\mac_array[0].mac /dsp_enable_i" type="logic">
+         <obj_property name="ElementShortName">dsp_enable_i</obj_property>
+         <obj_property name="ObjectShortName">dsp_enable_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/u_gemv/\mac_array[0].mac /dsp_input_i" type="array">
+         <obj_property name="ElementShortName">dsp_input_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_input_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/u_gemv/\mac_array[0].mac /dsp_weight_i" type="array">
+         <obj_property name="ElementShortName">dsp_weight_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_weight_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/u_gemv/\mac_array[0].mac /dsp_output_o" type="array">
+         <obj_property name="ElementShortName">dsp_output_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_output_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/u_gemv/\mac_array[0].mac /partial_sum" type="array">
+         <obj_property name="ElementShortName">partial_sum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">partial_sum[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer2/u_gemv/\mac_array[0].mac /gemv_rst_p" type="logic">
+         <obj_property name="ElementShortName">gemv_rst_p</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst_p</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">layer3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/data_vector_i" type="array">
+         <obj_property name="ElementShortName">data_vector_i[4095:0]</obj_property>
+         <obj_property name="ObjectShortName">data_vector_i[4095:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/valid_in" type="logic">
+         <obj_property name="ElementShortName">valid_in</obj_property>
+         <obj_property name="ObjectShortName">valid_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/layer_update" type="logic">
+         <obj_property name="ElementShortName">layer_update</obj_property>
+         <obj_property name="ObjectShortName">layer_update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/data_vector_o" type="array">
+         <obj_property name="ElementShortName">data_vector_o[4095:0]</obj_property>
+         <obj_property name="ObjectShortName">data_vector_o[4095:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/valid_o" type="logic">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/ctrl_valid" type="logic">
+         <obj_property name="ElementShortName">ctrl_valid</obj_property>
+         <obj_property name="ObjectShortName">ctrl_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/gemv_rst" type="logic">
+         <obj_property name="ElementShortName">gemv_rst</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/buf_w_en" type="logic">
+         <obj_property name="ElementShortName">buf_w_en</obj_property>
+         <obj_property name="ObjectShortName">buf_w_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/gemv_end" type="logic">
+         <obj_property name="ElementShortName">gemv_end</obj_property>
+         <obj_property name="ObjectShortName">gemv_end</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/ctrl_row" type="array">
+         <obj_property name="ElementShortName">ctrl_row[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_row[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/ctrl_rvec" type="array">
+         <obj_property name="ElementShortName">ctrl_rvec[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_rvec[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/ctrl_wvec" type="array">
+         <obj_property name="ElementShortName">ctrl_wvec[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_wvec[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/ctrl_valid_p" type="logic">
+         <obj_property name="ElementShortName">ctrl_valid_p</obj_property>
+         <obj_property name="ObjectShortName">ctrl_valid_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/gemv_rst_p" type="logic">
+         <obj_property name="ElementShortName">gemv_rst_p</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/buf_w_en_p" type="logic">
+         <obj_property name="ElementShortName">buf_w_en_p</obj_property>
+         <obj_property name="ObjectShortName">buf_w_en_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/gemv_end_p" type="logic">
+         <obj_property name="ElementShortName">gemv_end_p</obj_property>
+         <obj_property name="ObjectShortName">gemv_end_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/gemv_end_pp" type="logic">
+         <obj_property name="ElementShortName">gemv_end_pp</obj_property>
+         <obj_property name="ObjectShortName">gemv_end_pp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/ctrl_row_p" type="array">
+         <obj_property name="ElementShortName">ctrl_row_p[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_row_p[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/ctrl_rvec_p" type="array">
+         <obj_property name="ElementShortName">ctrl_rvec_p[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_rvec_p[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/ctrl_wvec_p" type="array">
+         <obj_property name="ElementShortName">ctrl_wvec_p[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_wvec_p[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/scalar_data" type="array">
+         <obj_property name="ElementShortName">scalar_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">scalar_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/scalar_data_p" type="array">
+         <obj_property name="ElementShortName">scalar_data_p[15:0]</obj_property>
+         <obj_property name="ObjectShortName">scalar_data_p[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/weight_row" type="array">
+         <obj_property name="ElementShortName">weight_row[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_row[1023:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/wvec_idx" type="array">
+         <obj_property name="ElementShortName">wvec_idx[8:0]</obj_property>
+         <obj_property name="ObjectShortName">wvec_idx[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/weight_row_p" type="array">
+         <obj_property name="ElementShortName">weight_row_p[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_row_p[1023:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/gemv_out" type="array">
+         <obj_property name="ElementShortName">gemv_out[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">gemv_out[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/gemv_out_p" type="array">
+         <obj_property name="ElementShortName">gemv_out_p[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">gemv_out_p[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/u_gemv/gemv_rst" type="logic">
+         <obj_property name="ElementShortName">gemv_rst</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/u_gemv/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/u_gemv/en_i" type="logic">
+         <obj_property name="ElementShortName">en_i</obj_property>
+         <obj_property name="ObjectShortName">en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/u_gemv/weight_i" type="array">
+         <obj_property name="ElementShortName">weight_i[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_i[1023:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/u_gemv/din_i" type="array">
+         <obj_property name="ElementShortName">din_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer3/u_gemv/gemv_o" type="array">
+         <obj_property name="ElementShortName">gemv_o[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">gemv_o[2047:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">layer4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/rstn_i" type="logic">
+         <obj_property name="ElementShortName">rstn_i</obj_property>
+         <obj_property name="ObjectShortName">rstn_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/data_vector_i" type="array">
+         <obj_property name="ElementShortName">data_vector_i[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">data_vector_i[2047:0]</obj_property>
+         <obj_property name="Reversed">false</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/valid_in" type="logic">
+         <obj_property name="ElementShortName">valid_in</obj_property>
+         <obj_property name="ObjectShortName">valid_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/layer_update" type="logic">
+         <obj_property name="ElementShortName">layer_update</obj_property>
+         <obj_property name="ObjectShortName">layer_update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/data_vector_o" type="array">
+         <obj_property name="ElementShortName">data_vector_o[319:0]</obj_property>
+         <obj_property name="ObjectShortName">data_vector_o[319:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/valid_o" type="logic">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/din_i" type="array">
+         <obj_property name="ElementShortName">din_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_wb/dout" type="array">
+         <obj_property name="ElementShortName">dout[79:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[79:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/gemv_o" type="array">
+         <obj_property name="ElementShortName">gemv_o[159:0]</obj_property>
+         <obj_property name="ObjectShortName">gemv_o[159:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/gemv_rst" type="logic">
+         <obj_property name="ElementShortName">gemv_rst</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/weight_i" type="array">
+         <obj_property name="ElementShortName">weight_i[79:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_i[79:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/din_i" type="array">
+         <obj_property name="ElementShortName">din_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">din_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/gemv_o" type="array">
+         <obj_property name="ElementShortName">gemv_o[159:0]</obj_property>
+         <obj_property name="ObjectShortName">gemv_o[159:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/\mac_array[0].mac /gemv_rst" type="logic">
+         <obj_property name="ElementShortName">gemv_rst</obj_property>
+         <obj_property name="ObjectShortName">gemv_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/\mac_array[0].mac /dsp_enable_i" type="logic">
+         <obj_property name="ElementShortName">dsp_enable_i</obj_property>
+         <obj_property name="ObjectShortName">dsp_enable_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/\mac_array[0].mac /dsp_input_i" type="array">
+         <obj_property name="ElementShortName">dsp_input_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_input_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/\mac_array[0].mac /dsp_weight_i" type="array">
+         <obj_property name="ElementShortName">dsp_weight_i[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_weight_i[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/\mac_array[0].mac /dsp_output_o" type="array">
+         <obj_property name="ElementShortName">dsp_output_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_output_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/\mac_array[0].mac /partial_sum" type="array">
+         <obj_property name="ElementShortName">partial_sum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">partial_sum[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/layer_stack_inst/u_layer4/u_gemv/\mac_array[0].mac /dsp_output" type="array">
+         <obj_property name="ElementShortName">dsp_output[32:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_output[32:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group555" type="group">
+      <obj_property name="label">Input BRAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_mlp/dut/input_buffer_inst/addr" type="array">
+         <obj_property name="ElementShortName">addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_mlp/dut/input_buffer_inst/dout" type="array">
+         <obj_property name="ElementShortName">dout[6271:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[6271:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
